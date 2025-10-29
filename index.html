@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kanjanadevi K - Resume</title>
+
+  <style>
+    /* ---------- GLOBAL STYLES ---------- */
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #eef5ec;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    .resume-container {
+      background: #ffffff;
+      width: 90%;
+      max-width: 900px;
+      margin: 40px 0;
+      padding: 40px 50px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    /* ---------- HEADER SECTION ---------- */
+    .header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      border-bottom: 2px solid #e5e5e5;
+      padding-bottom: 20px;
+    }
+
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 10px;
+      object-fit: cover;
+      border: 2px solid #ccc;
+      margin-right: 25px;
+    }
+
+    .header-info h1 {
+      margin: 0;
+      color: #222;
+      font-size: 28px;
+    }
+
+    .header-info h3 {
+      margin: 5px 0;
+      color: #666;
+      font-weight: 500;
+    }
+
+    /* ---------- SECTION STYLE ---------- */
+    .section {
+      margin-top: 25px;
+    }
+
+    .section h2 {
+      font-size: 20px;
+      color: #333;
+      border-left: 5px solid #4caf50;
+      padding-left: 10px;
+      margin-bottom: 10px;
+    }
+
+    /* ---------- DETAILS LAYOUT ---------- */
+    .info {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .left {
+      width: 65%;
+    }
+
+    .right {
+      width: 30%;
+    }
+
+    /* ---------- TEXT STYLES ---------- */
+    p, li {
+      font-size: 15px;
+      color: #444;
+      line-height: 1.6;
+    }
+
+    ul {
+      padding-left: 15px;
+    }
+
+    a {
+      color: #0073b1;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* ---------- SKILLS & LANGUAGES ---------- */
+    .skills ul, .languages ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .skills li, .languages li {
+      background: #f3f3f3;
+      display: inline-block;
+      padding: 6px 10px;
+      margin: 4px;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    /* ---------- PRINT BUTTON ---------- */
+    .print-btn {
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 55px;
+      height: 55px;
+      font-size: 22px;
+      cursor: pointer;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .print-btn:hover {
+      background-color: #43a047;
+    }
+
+    /* ---------- RESPONSIVE DESIGN ---------- */
+    @media (max-width: 768px) {
+      .info {
+        flex-direction: column;
+      }
+      .left, .right {
+        width: 100%;
+      }
+      .profile-img {
+        margin-bottom: 15px;
+      }
+      .resume-container {
+        padding: 25px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="resume-container">
+    <!-- HEADER -->
+    <div class="header">
+      <img src="your-photo.jpg" alt="Profile Photo" class="profile-img" />
+      <div class="header-info">
+        <h1>KANJANADEVI K</h1>
+        <h3>Student</h3>
+      </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="info">
+      <!-- LEFT SIDE -->
+      <div class="left">
+        <!-- Profile -->
+        <div class="section">
+          <h2>Profile</h2>
+          <p>
+            Ambitious student with a year of experience actively seeking opportunities to apply knowledge and skills in a practical setting. Adaptable and eager to learn, bringing a strong foundation in critical thinking and problem-solving. Equipped with excellent communication abilities, ready to contribute positively to a team environment. Committed to personal and professional growth, looking to embrace challenges that will foster development and enhance future career prospects.
+          </p>
+        </div>
+
+        <!-- Education -->
+        <div class="section">
+          <h2>Education</h2>
+          <ul>
+            <li><strong>10th</strong> – Sree Ambaal’s Matric.Hr.Sec School, Perambalur <br><i>June 2020 – May 2021</i></li>
+            <li><strong>12th</strong> – Sree Ambaal’s Matric.Hr.Sec School, Perambalur <br><i>May 2022 – May 2023</i></li>
+            <li><strong>B.E - E.C.E</strong> – K. Ramakrishnan College of Engineering, Tiruchirappalli <br><i>Aug 2023 – Present</i></li>
+          </ul>
+        </div>
+
+        <!-- Certifications -->
+        <div class="section">
+          <h2>Certifications</h2>
+          <ul>
+            <li>Python Zero to Hero — GUVI (Sept 2024)</li>
+            <li>Generative AI — GUVI (Sept 2024)</li>
+          </ul>
+        </div>
+
+        <!-- Courses -->
+        <div class="section">
+          <h2>Courses</h2>
+          <ul>
+            <li>Technical English for Engineers — NPTEL (Aug 2024 – Oct 2024)</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- RIGHT SIDE -->
+      <div class="right">
+        <div class="section">
+          <h2>Details</h2>
+          <p>📍 Perambalur, India</p>
+          <p>📞 6382607169</p>
+          <p>📧 <a href="mailto:kanjanadevikanjanadevi207@gmail.com">kanjanadevikanjanadevi207@gmail.com</a></p>
+        </div>
+
+        <div class="section">
+          <h2>Links</h2>
+          <p><a href="#">LinkedIn</a></p>
+          <p><a href="#">GitHub</a></p>
+        </div>
+
+        <div class="section skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>Fast Learner</li>
+            <li>Communication Skills</li>
+            <li>Microsoft Excel</li>
+          </ul>
+        </div>
+
+        <div class="section languages">
+          <h2>Languages</h2>
+          <ul>
+            <li>English</li>
+            <li>Tamil</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Print Button -->
+  <button class="print-btn" onclick="window.print()">🖨</button>
+</body>
+</html>
